@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NODE_PATH = "/Users/rusau/.nvm/versions/node/v16.14.2/bin"
+        NODE_PATH = "C:\Program Files\nodejs"
         PATH = "${env.NODE_PATH}:${env.PATH}"
     }
 
